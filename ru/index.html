@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MiniBlox - Fun Online Building Block Game | Play Free Now</title>
-    <meta name="description" content="Play MiniBlox online - a creative building block game where you can construct, explore, and have fun with friends in virtual worlds. Free to play in your browser!">
-    <link rel="canonical" href="https://miniblox.cc/">
+    <title>MiniBlox - Увлекательная онлайн-игра с блоками | Играйте бесплатно сейчас</title>
+    <meta name="description" content="Играйте в MiniBlox онлайн - творческая игра с блоками, где вы можете строить, исследовать и веселиться с друзьями в виртуальных мирах. Бесплатно в вашем браузере!">
+    <link rel="canonical" href="https://miniblox.cc/ru/">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -230,20 +230,6 @@
             margin-top: 5rem;
             border-top: 1px solid rgba(255, 255, 255, 0.1);
         }
-        
-        /* Dropdown styles */
-        .dropdown-hidden {
-            display: none;
-        }
-        
-        .dropdown-visible {
-            display: block;
-        }
-        
-        /* This prevents the dropdown from closing when hovering between button and dropdown */
-        #language-dropdown-container {
-            padding-bottom: 10px;
-        }
     </style>
 </head>
 <body>
@@ -253,29 +239,29 @@
             <div class="flex justify-between items-center">
                 <a href="#" class="text-2xl font-bold text-white">MiniBlox</a>
                 <div class="hidden md:flex space-x-6">
-                    <a href="#how-to-play" class="text-gray-300 hover:text-white">How to Play</a>
-                    <a href="#controls" class="text-gray-300 hover:text-white">Controls</a>
-                    <a href="#features" class="text-gray-300 hover:text-white">Features</a>
+                    <a href="#how-to-play" class="text-gray-300 hover:text-white">Как играть</a>
+                    <a href="#controls" class="text-gray-300 hover:text-white">Управление</a>
+                    <a href="#features" class="text-gray-300 hover:text-white">Особенности</a>
                     <a href="#faq" class="text-gray-300 hover:text-white">FAQ</a>
-                    <div class="relative" id="language-dropdown-container">
-                        <button id="language-toggle" class="flex items-center text-gray-300 hover:text-white focus:outline-none">
-                            English
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <div class="relative group">
+                        <button class="text-gray-300 hover:text-white flex items-center">
+                            <span>Русский</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                             </svg>
                         </button>
-                        <div id="language-dropdown" class="absolute right-0 mt-2 w-48 bg-dark border border-gray-700 rounded-md shadow-lg dropdown-hidden transition-all duration-300 z-50">
+                        <div class="absolute right-0 mt-2 w-48 bg-dark border border-gray-700 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
                             <div class="py-1">
-                                <a href="index.html" class="block px-4 py-2 text-white bg-primary">English</a>
-                                <a href="pt-br/index.html" class="block px-4 py-2 text-gray-300 hover:bg-gray-800">Português (Brasil)</a>
-                                <a href="tr/index.html" class="block px-4 py-2 text-gray-300 hover:bg-gray-800">Türkçe</a>
-                                <a href="ko/index.html" class="block px-4 py-2 text-gray-300 hover:bg-gray-800">한국어</a>
-                                <a href="ru/index.html" class="block px-4 py-2 text-gray-300 hover:bg-gray-800">Русский</a>
+                                <a href="../index.html" class="block px-4 py-2 text-gray-300 hover:bg-gray-800">English</a>
+                                <a href="../pt-br/index.html" class="block px-4 py-2 text-gray-300 hover:bg-gray-800">Português (Brasil)</a>
+                                <a href="../tr/index.html" class="block px-4 py-2 text-gray-300 hover:bg-gray-800">Türkçe</a>
+                                <a href="../ko/index.html" class="block px-4 py-2 text-gray-300 hover:bg-gray-800">한국어</a>
+                                <a href="index.html" class="block px-4 py-2 text-white bg-primary">Русский</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <a href="#play-now" class="btn-primary">Play Now</a>
+                <a href="#play-now" class="btn-primary">Играть сейчас</a>
             </div>
         </div>
     </nav>
@@ -283,75 +269,75 @@
     <!-- Hero Section -->
     <section class="hero-section">
         <div class="container mx-auto px-4">
-            <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">MiniBlox Game Online</h1>
-            <p class="text-xl text-gray-300 max-w-2xl mx-auto mb-8">Build, create, and explore in this fun block-building adventure game where your imagination is the only limit!</p>
-            <a href="#play-now" class="btn-primary text-lg px-8 py-3">PLAY NOW</a>
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">MiniBlox Онлайн-игра</h1>
+            <p class="text-xl text-gray-300 max-w-2xl mx-auto mb-8">Стройте, создавайте и исследуйте в этой увлекательной блочной игре-приключении, где ваше воображение — единственный предел!</p>
+            <a href="#play-now" class="btn-primary text-lg px-8 py-3">ИГРАТЬ СЕЙЧАС</a>
         </div>
     </section>
 
     <div class="container mx-auto px-4 py-12">
         <!-- Game Section -->
         <section id="play-now" class="mb-20">
-            <h2 class="section-title">Play MiniBlox</h2>
+            <h2 class="section-title">Играть в MiniBlox</h2>
             <div class="game-iframe-container">
-                <iframe class="game-iframe" src="https://games.crazygames.com/en_US/miniblox/index.html" title="Play MiniBlox Online" allow="fullscreen" loading="lazy"></iframe>
+                <iframe class="game-iframe" src="https://games.crazygames.com/en_US/miniblox/index.html" title="Играть в MiniBlox онлайн" allow="fullscreen" loading="lazy"></iframe>
             </div>
         </section>
 
         <!-- How to Play Section -->
         <section id="how-to-play" class="mb-20">
-            <h2 class="section-title">How to Play</h2>
+            <h2 class="section-title">Как играть</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
                 <div class="step-card">
                     <div class="step-number">1</div>
-                    <h3 class="text-xl font-semibold text-white mb-3">Choose Your World</h3>
-                    <p>Select from various game worlds with different challenges and environments to explore.</p>
+                    <h3 class="text-xl font-semibold text-white mb-3">Выберите свой мир</h3>
+                    <p>Выбирайте из различных игровых миров с разными испытаниями и средами для исследования.</p>
                 </div>
                 <div class="step-card">
                     <div class="step-number">2</div>
-                    <h3 class="text-xl font-semibold text-white mb-3">Gather Resources</h3>
-                    <p>Collect blocks and resources to build structures and craft items for your adventures.</p>
+                    <h3 class="text-xl font-semibold text-white mb-3">Собирайте ресурсы</h3>
+                    <p>Собирайте блоки и ресурсы для строительства структур и создания предметов для ваших приключений.</p>
                 </div>
                 <div class="step-card">
                     <div class="step-number">3</div>
-                    <h3 class="text-xl font-semibold text-white mb-3">Build & Explore</h3>
-                    <p>Create amazing structures and explore the world alone or with friends in multiplayer mode.</p>
+                    <h3 class="text-xl font-semibold text-white mb-3">Стройте и исследуйте</h3>
+                    <p>Создавайте удивительные сооружения и исследуйте мир в одиночку или с друзьями в многопользовательском режиме.</p>
                 </div>
             </div>
         </section>
 
         <!-- Controls Section -->
         <section id="controls" class="mb-20">
-            <h2 class="section-title">Game Controls</h2>
+            <h2 class="section-title">Управление игрой</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
                 <div>
-                    <h3 class="text-xl font-semibold text-white mb-4">Movement Controls</h3>
+                    <h3 class="text-xl font-semibold text-white mb-4">Управление движением</h3>
                     <div class="control-item">
                         <div class="control-key">WASD</div>
-                        <div>Move your character</div>
+                        <div>Перемещение персонажа</div>
                     </div>
                     <div class="control-item">
-                        <div class="control-key">SPACE</div>
-                        <div>Jump</div>
+                        <div class="control-key">ПРОБЕЛ</div>
+                        <div>Прыжок</div>
                     </div>
                     <div class="control-item">
                         <div class="control-key">SHIFT</div>
-                        <div>Sprint</div>
+                        <div>Бег</div>
                     </div>
                 </div>
                 <div>
-                    <h3 class="text-xl font-semibold text-white mb-4">Interaction Controls</h3>
+                    <h3 class="text-xl font-semibold text-white mb-4">Управление взаимодействием</h3>
                     <div class="control-item">
-                        <div class="control-key">LMB</div>
-                        <div>Place blocks</div>
+                        <div class="control-key">ЛКМ</div>
+                        <div>Разместить блоки</div>
                     </div>
                     <div class="control-item">
-                        <div class="control-key">RMB</div>
-                        <div>Remove blocks</div>
+                        <div class="control-key">ПКМ</div>
+                        <div>Удалить блоки</div>
                     </div>
                     <div class="control-item">
                         <div class="control-key">E</div>
-                        <div>Open inventory</div>
+                        <div>Открыть инвентарь</div>
                     </div>
                 </div>
             </div>
@@ -359,46 +345,46 @@
 
         <!-- Features Section -->
         <section id="features" class="mb-20">
-            <h2 class="section-title">Game Features</h2>
+            <h2 class="section-title">Особенности игры</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
                 <div class="feature-card">
-                    <h3 class="text-xl font-semibold text-white mb-4">Creative Building</h3>
+                    <h3 class="text-xl font-semibold text-white mb-4">Творческое строительство</h3>
                     <ul class="feature-list">
-                        <li>Place and remove different colored blocks</li>
-                        <li>Build complex structures with various block types</li>
-                        <li>Share your creations with the community</li>
-                        <li>Unlock new block types as you progress</li>
-                        <li>Save multiple projects to continue later</li>
+                        <li>Размещайте и удаляйте блоки разных цветов</li>
+                        <li>Стройте сложные конструкции из различных типов блоков</li>
+                        <li>Делитесь своими творениями с сообществом</li>
+                        <li>Открывайте новые типы блоков по мере прогресса</li>
+                        <li>Сохраняйте несколько проектов, чтобы продолжить позже</li>
                     </ul>
                 </div>
                 <div class="feature-card">
-                    <h3 class="text-xl font-semibold text-white mb-4">Multiplayer Fun</h3>
+                    <h3 class="text-xl font-semibold text-white mb-4">Многопользовательское веселье</h3>
                     <ul class="feature-list">
-                        <li>Play with friends in real-time</li>
-                        <li>Join existing worlds or create your own</li>
-                        <li>Collaborate on massive building projects</li>
-                        <li>Compete in building challenges</li>
-                        <li>Chat with other players while you build</li>
+                        <li>Играйте с друзьями в реальном времени</li>
+                        <li>Присоединяйтесь к существующим мирам или создавайте свои</li>
+                        <li>Сотрудничайте в масштабных строительных проектах</li>
+                        <li>Соревнуйтесь в строительных испытаниях</li>
+                        <li>Общайтесь с другими игроками во время строительства</li>
                     </ul>
                 </div>
                 <div class="feature-card">
-                    <h3 class="text-xl font-semibold text-white mb-4">Game Modes</h3>
+                    <h3 class="text-xl font-semibold text-white mb-4">Игровые режимы</h3>
                     <ul class="feature-list">
-                        <li>Creative Mode with unlimited resources</li>
-                        <li>Survival Mode with resource gathering</li>
-                        <li>Adventure Mode with quests and challenges</li>
-                        <li>Mini-games with competitive gameplay</li>
-                        <li>Custom mode with personalized settings</li>
+                        <li>Творческий режим с неограниченными ресурсами</li>
+                        <li>Режим выживания со сбором ресурсов</li>
+                        <li>Режим приключений с заданиями и испытаниями</li>
+                        <li>Мини-игры с соревновательным геймплеем</li>
+                        <li>Пользовательский режим с персонализированными настройками</li>
                     </ul>
                 </div>
                 <div class="feature-card">
-                    <h3 class="text-xl font-semibold text-white mb-4">Technical Features</h3>
+                    <h3 class="text-xl font-semibold text-white mb-4">Технические особенности</h3>
                     <ul class="feature-list">
-                        <li>Browser-based for instant play</li>
-                        <li>No downloads or installations required</li>
-                        <li>Cross-platform compatibility</li>
-                        <li>Regular updates with new content</li>
-                        <li>Optimized for both desktop and mobile</li>
+                        <li>Браузерная основа для мгновенной игры</li>
+                        <li>Не требуется загрузка или установка</li>
+                        <li>Кроссплатформенная совместимость</li>
+                        <li>Регулярные обновления с новым контентом</li>
+                        <li>Оптимизирована как для настольных, так и для мобильных устройств</li>
                     </ul>
                 </div>
             </div>
@@ -406,27 +392,27 @@
 
         <!-- Similar Games Section -->
         <section class="mb-20">
-            <h2 class="section-title">Similar Games</h2>
+            <h2 class="section-title">Похожие игры</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
                 <div class="game-card">
                     <div class="p-6">
                         <h3 class="text-xl font-semibold text-white mb-3">BlockCraft 3D</h3>
-                        <p class="text-gray-400 mb-4">Another block building adventure with unique features and worlds to explore.</p>
-                        <a href="#" class="text-primary hover:underline">Learn More</a>
+                        <p class="text-gray-400 mb-4">Еще одно блочное приключение с уникальными функциями и мирами для исследования.</p>
+                        <a href="#" class="text-primary hover:underline">Узнать больше</a>
                     </div>
                 </div>
                 <div class="game-card">
                     <div class="p-6">
                         <h3 class="text-xl font-semibold text-white mb-3">CraftNite</h3>
-                        <p class="text-gray-400 mb-4">Combines building mechanics with survival elements for added challenge.</p>
-                        <a href="#" class="text-primary hover:underline">Learn More</a>
+                        <p class="text-gray-400 mb-4">Сочетает механику строительства с элементами выживания для дополнительного вызова.</p>
+                        <a href="#" class="text-primary hover:underline">Узнать больше</a>
                     </div>
                 </div>
                 <div class="game-card">
                     <div class="p-6">
                         <h3 class="text-xl font-semibold text-white mb-3">Pixel Worlds</h3>
-                        <p class="text-gray-400 mb-4">2D block building with social features and creative multiplayer options.</p>
-                        <a href="#" class="text-primary hover:underline">Learn More</a>
+                        <p class="text-gray-400 mb-4">2D блочное строительство с социальными функциями и креативными многопользовательскими опциями.</p>
+                        <a href="#" class="text-primary hover:underline">Узнать больше</a>
                     </div>
                 </div>
             </div>
@@ -434,27 +420,27 @@
 
         <!-- FAQ Section -->
         <section id="faq" class="mb-20">
-            <h2 class="section-title">Frequently Asked Questions</h2>
+            <h2 class="section-title">Часто задаваемые вопросы</h2>
             <div class="mt-8">
                 <div class="faq-item">
-                    <h3>Is MiniBlox free to play?</h3>
-                    <p>Yes! MiniBlox is completely free to play directly in your browser without downloads or installations.</p>
+                    <h3>MiniBlox бесплатная игра?</h3>
+                    <p>Да! MiniBlox полностью бесплатна и доступна для игры прямо в вашем браузере без загрузок и установок.</p>
                 </div>
                 <div class="faq-item">
-                    <h3>Can I play MiniBlox on mobile devices?</h3>
-                    <p>Yes, MiniBlox is designed to be responsive and works well on both desktop and mobile devices with touch controls.</p>
+                    <h3>Могу ли я играть в MiniBlox на мобильных устройствах?</h3>
+                    <p>Да, MiniBlox адаптирована для отзывчивой работы как на настольных компьютерах, так и на мобильных устройствах с сенсорным управлением.</p>
                 </div>
                 <div class="faq-item">
-                    <h3>Do I need to create an account?</h3>
-                    <p>No account is required to start playing, though creating one allows you to save your progress and access additional features.</p>
+                    <h3>Нужно ли создавать аккаунт?</h3>
+                    <p>Для начала игры аккаунт не требуется, хотя создание аккаунта позволит сохранить прогресс и получить доступ к дополнительным функциям.</p>
                 </div>
                 <div class="faq-item">
-                    <h3>Can I play with my friends?</h3>
-                    <p>Yes! MiniBlox supports multiplayer functionality so you can build and explore with friends in shared worlds.</p>
+                    <h3>Могу ли я играть с друзьями?</h3>
+                    <p>Да! MiniBlox поддерживает многопользовательский функционал, поэтому вы можете строить и исследовать вместе с друзьями в общих мирах.</p>
                 </div>
                 <div class="faq-item">
-                    <h3>Are there regular updates?</h3>
-                    <p>Yes, we regularly update MiniBlox with new features, blocks, and game modes to keep the experience fresh and exciting.</p>
+                    <h3>Есть ли регулярные обновления?</h3>
+                    <p>Да, мы регулярно обновляем MiniBlox новыми функциями, блоками и игровыми режимами, чтобы сохранить свежесть и увлекательность игрового процесса.</p>
                 </div>
             </div>
         </section>
@@ -466,85 +452,37 @@
             <div class="flex flex-col md:flex-row justify-between">
                 <div class="mb-8 md:mb-0">
                     <h3 class="text-2xl font-bold text-white mb-4">MiniBlox</h3>
-                    <p class="text-gray-400 max-w-md">An online block-building game where creativity meets adventure. Build, explore, and play with friends in this fun multiplayer experience.</p>
+                    <p class="text-gray-400 max-w-md">Онлайн-игра по строительству блоков, где творчество встречается с приключениями. Стройте, исследуйте и играйте с друзьями в этом увлекательном многопользовательском опыте.</p>
                 </div>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
                     <div>
-                        <h4 class="text-white font-semibold mb-3">Quick Links</h4>
+                        <h4 class="text-white font-semibold mb-3">Быстрые ссылки</h4>
                         <ul class="space-y-2">
-                            <li><a href="#" class="text-gray-400 hover:text-white">Home</a></li>
-                            <li><a href="#how-to-play" class="text-gray-400 hover:text-white">How to Play</a></li>
-                            <li><a href="#features" class="text-gray-400 hover:text-white">Features</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white">Главная</a></li>
+                            <li><a href="#how-to-play" class="text-gray-400 hover:text-white">Как играть</a></li>
+                            <li><a href="#features" class="text-gray-400 hover:text-white">Особенности</a></li>
                             <li><a href="#faq" class="text-gray-400 hover:text-white">FAQ</a></li>
                         </ul>
                     </div>
                     <div>
-                        <h4 class="text-white font-semibold mb-3">Legal</h4>
+                        <h4 class="text-white font-semibold mb-3">Юридическая информация</h4>
                         <ul class="space-y-2">
-                            <li><a href="privacy.html" class="text-gray-400 hover:text-white">Privacy Policy</a></li>
-                            <li><a href="terms.html" class="text-gray-400 hover:text-white">Terms of Service</a></li>
+                            <li><a href="../privacy.html" class="text-gray-400 hover:text-white">Политика конфиденциальности</a></li>
+                            <li><a href="../terms.html" class="text-gray-400 hover:text-white">Условия использования</a></li>
                         </ul>
                     </div>
                     <div>
-                        <h4 class="text-white font-semibold mb-3">Connect</h4>
+                        <h4 class="text-white font-semibold mb-3">Связаться</h4>
                         <ul class="space-y-2">
-                            <li><a href="#" class="text-gray-400 hover:text-white">Contact Us</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white">Свяжитесь с нами</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="border-t border-gray-800 mt-12 pt-8 text-center">
-                <p class="text-gray-500">&copy; 2023 MiniBlox.cc - All rights reserved</p>
+                <p class="text-gray-500">&copy; 2023 MiniBlox.cc - Все права защищены</p>
             </div>
         </div>
     </footer>
-
-    <script>
-        // Get DOM elements
-        const languageToggle = document.getElementById('language-toggle');
-        const languageDropdown = document.getElementById('language-dropdown');
-        const dropdownContainer = document.getElementById('language-dropdown-container');
-        
-        // Variable to track if dropdown was opened by click
-        let dropdownActive = false;
-        
-        // Function to open dropdown
-        function openDropdown() {
-            languageDropdown.classList.remove('dropdown-hidden');
-            languageDropdown.classList.add('dropdown-visible');
-            dropdownActive = true;
-        }
-        
-        // Function to close dropdown
-        function closeDropdown() {
-            languageDropdown.classList.add('dropdown-hidden');
-            languageDropdown.classList.remove('dropdown-visible');
-            dropdownActive = false;
-        }
-        
-        // Toggle dropdown when clicking the button
-        languageToggle.addEventListener('click', function(event) {
-            event.stopPropagation();
-            if (languageDropdown.classList.contains('dropdown-hidden')) {
-                openDropdown();
-            } else {
-                closeDropdown();
-            }
-        });
-        
-        // Close dropdown when clicking on a language option
-        const languageOptions = languageDropdown.querySelectorAll('a');
-        languageOptions.forEach(option => {
-            option.addEventListener('click', closeDropdown);
-        });
-        
-        // Close dropdown when clicking outside
-        document.addEventListener('click', function(event) {
-            // Check if click is outside of dropdown and toggle
-            if (!dropdownContainer.contains(event.target)) {
-                closeDropdown();
-            }
-        });
-    </script>
 </body>
 </html>

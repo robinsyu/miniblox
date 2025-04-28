@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이용약관 - MiniBlox</title>
+    <meta name="description" content="MiniBlox - 온라인 블록 빌딩 게임의 이용약관.">
+    <link rel="canonical" href="https://miniblox.cc/ko/terms.html">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'sans': ['Poppins', 'sans-serif']
+                    },
+                    colors: {
+                        'primary': '#3490dc',
+                        'secondary': '#e3342f',
+                        'success': '#38c172',
+                        'warning': '#ffed4a',
+                        'dark': '#1a202c',
+                        'darker': '#0d1117',
+                        'light': '#e5e7eb'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0d1117;
+            color: #e5e7eb;
+        }
+        
+        .navbar {
+            background-color: rgba(26, 32, 44, 0.9);
+            backdrop-filter: blur(10px);
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            padding: 1rem 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .section-title {
+            position: relative;
+            display: inline-block;
+            font-weight: 700;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            color: white;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 60px;
+            height: 4px;
+            background-color: #3490dc;
+        }
+        
+        .btn-primary {
+            background-color: #3490dc;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            font-weight: 600;
+            border-radius: 8px;
+            transition: all 0.3s;
+            display: inline-block;
+            text-align: center;
+        }
+        
+        .btn-primary:hover {
+            background-color: #2779bd;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(52, 144, 220, 0.4);
+        }
+        
+        .footer {
+            background-color: #1a202c;
+            padding: 3rem 0;
+            margin-top: 5rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .terms-card {
+            background-color: #1a202c;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .terms-card h3 {
+            color: white;
+            font-weight: 600;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .terms-card p, .terms-card ul, .terms-card ol {
+            margin-bottom: 1rem;
+            color: #a0aec0;
+        }
+        
+        .terms-card ul, .terms-card ol {
+            padding-left: 1.5rem;
+        }
+        
+        .terms-card ul li, .terms-card ol li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .page-header {
+            background: linear-gradient(rgba(13, 17, 23, 0.8), rgba(13, 17, 23, 0.9)), url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"%3E%3Crect x="20" y="20" width="25" height="25" fill="%233490dc" opacity="0.2"/%3E%3Crect x="55" y="20" width="25" height="25" fill="%23e3342f" opacity="0.2"/%3E%3Crect x="20" y="55" width="25" height="25" fill="%2338c172" opacity="0.2"/%3E%3Crect x="55" y="55" width="25" height="25" fill="%23ffed4a" opacity="0.2"/%3E%3C/svg%3E');
+            background-size: cover;
+            background-position: center;
+            padding: 8rem 0 3rem;
+            text-align: center;
+        }
+        
+        .highlight {
+            color: #3490dc;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center">
+                <a href="index.html" class="text-2xl font-bold text-white">MiniBlox</a>
+                <div class="hidden md:flex space-x-6">
+                    <a href="index.html#how-to-play" class="text-gray-300 hover:text-white">플레이 방법</a>
+                    <a href="index.html#controls" class="text-gray-300 hover:text-white">조작법</a>
+                    <a href="index.html#features" class="text-gray-300 hover:text-white">기능</a>
+                    <a href="index.html#faq" class="text-gray-300 hover:text-white">FAQ</a>
+                </div>
+                <a href="index.html#play-now" class="btn-primary">지금 플레이</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container mx-auto px-4">
+            <h1 class="text-4xl font-bold text-white mb-4">이용약관</h1>
+            <p class="text-xl text-gray-300 max-w-2xl mx-auto">MiniBlox를 사용하기 위한 규칙 및 지침입니다.</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-12">
+        <div class="max-w-4xl mx-auto">
+            <div class="terms-card">
+                <h3>1. 약관 수락</h3>
+                <p>MiniBlox 웹사이트("사이트") 또는 온라인 블록 빌딩 게임("서비스")에 접속하거나 사용함으로써, 귀하는 이 이용약관("약관")에 동의하게 됩니다. 이 약관의 어떤 부분에 동의하지 않는 경우, 서비스를 사용하실 수 없습니다.</p>
+                <p>이 약관은 귀하와 MiniBlox("당사", "저희" 또는 "우리")간에 서비스 사용에 관한 법적 구속력이 있는 계약입니다. 서비스를 사용하려면 13세 이상이어야 합니다.</p>
+            </div>
+            
+            <div class="terms-card">
+                <h3>2. 계정 등록</h3>
+                <p>서비스의 특정 기능에 접근하기 위해 계정을 만들어야 할 수 있습니다. 등록함으로써, 귀하는 자신에 관한 정확하고 최신의 완전한 정보를 제공하고 이 정보의 정확성을 유지하기 위해 업데이트할 것에 동의합니다.</p>
+                <p>귀하는 계정 자격 증명의 기밀성을 유지하고 귀하의 계정에서 발생하는 모든 활동에 대해 책임이 있습니다. 귀하는 다음에 동의합니다:</p>
+                <ul class="list-disc">
+                    <li>강력하고 고유한 비밀번호 생성</li>
+                    <li>계정을 타인과 공유하지 않음</li>
+                    <li>계정의 무단 사용에 대해 즉시 알림</li>
+                    <li>각 세션이 끝날 때 계정에서 로그아웃하도록 함</li>
+                </ul>
+                <p>당사는 귀하가 이 약관의 조항을 위반했다고 판단될 경우 사용자 계정을 비활성화할 권리를 보유합니다.</p>
+            </div>
+            
+            <div class="terms-card">
+                <h3>3. 사용자 콘텐츠</h3>
+                <p>당사의 서비스는 사용자가 만든 세계, 구조물, 채팅 메시지를 포함하되 이에 국한되지 않는 콘텐츠를 만들고, 업로드하고, 공유할 수 있게 합니다("사용자 콘텐츠").</p>
+                
+                <h4 class="text-white font-medium mt-4 mb-2">3.1 콘텐츠 소유권</h4>
+                <p>귀하는 생성한 사용자 콘텐츠에 대한 지적 재산권을 보유합니다. 서비스에 사용자 콘텐츠를 제공함으로써, 귀하는 당사에게 서비스 운영, 개발, 제공, 홍보를 위해 사용자 콘텐츠를 사용, 복사, 수정, 파생 작품 생성, 배포, 공개적으로 표시, 공개적으로 수행 및 기타 방식으로 사용할 수 있는 전 세계적, 비독점적, 로열티 없는 라이선스를 부여합니다.</p>
+                
+                <h4 class="text-white font-medium mt-4 mb-2">3.2 콘텐츠 제한</h4>
+                <p>귀하는 다음과 같은 특성을 가진 사용자 콘텐츠를 만들거나, 업로드하거나, 공유하지 않을 것에 동의합니다:</p>
+                <ul class="list-disc">
+                    <li>불법, 유해, 위협적, 괴롭힘, 명예훼손, 중상, 외설, 포르노, 또는 달리 바람직하지 않은 것</li>
+                    <li>타인의 지적 재산권을 침해하는 것</li>
+                    <li>컴퓨터 바이러스나 기타 악성 코드를 포함하는 것</li>
+                    <li>승인되지 않거나 원치 않는 광고, 홍보물, "스팸" 또는 다른 형태의 유인물을 구성하는 것</li>
+                    <li>다른 사람이나 단체를 가장하거나 사람이나 단체와의 관계를 허위로 표현하는 것</li>
+                    <li>명시적 허가 없이 다른 사람의 개인 또는 식별 정보를 포함하는 것</li>
+                </ul>
+                <p>당사는 이 약관을 위반하거나 달리 부적절하다고 판단되는 사용자 콘텐츠를 사전 통지 없이 제거할 권리를 보유합니다.</p>
+            </div>
+            
+            <div class="terms-card">
+                <h3>4. 행동 강령</h3>
+                <p>당사의 서비스를 사용할 때, 귀하는 다음에 동의합니다:</p>
+                <ul class="list-disc">
+                    <li>다른 사용자를 존중과 예의로 대하기</li>
+                    <li>어떤 형태의 괴롭힘, 위협, 또는 따돌림에 참여하지 않기</li>
+                    <li>불법적인 목적으로 또는 법률을 위반하는 방식으로 서비스를 사용하지 않기</li>
+                    <li>다른 사용자의 계정이나 서비스의 일부에 무단 접근을 시도하지 않기</li>
+                    <li>서비스 또는 서비스와 연결된 서버나 네트워크의 작동을 방해하거나 손상시키지 않기</li>
+                    <li>서비스를 변경하거나 간섭하기 위해 설계된 치트, 익스플로잇, 자동화 소프트웨어, 봇, 해킹, 모드, 또는 허가되지 않은 타사 소프트웨어를 사용하지 않기</li>
+                    <li>계정을 판매, 교환, 또는 다른 사람에게 이전하지 않기</li>
+                </ul>
+                <p>행동 강령 위반은 서비스에 대한 일시적 또는 영구적 접근 금지로 이어질 수 있습니다.</p>
+            </div>
+            
+            <div class="terms-card">
+                <h3>5. 지적 재산권</h3>
+                <p>서비스와 그 원래 콘텐츠(사용자 콘텐츠 제외), 기능, 기능성은 MiniBlox와 라이선스 제공자의 독점 재산으로 남습니다. 서비스는 미국 및 기타 국가의 저작권, 상표 및 기타 법률에 의해 보호됩니다.</p>
+                <p>당사의 이름, 로고, 그리고 모든 관련 이름, 로고, 제품 및 서비스 이름, 디자인, 슬로건은 MiniBlox 또는 그 계열사의 상표입니다. MiniBlox의 사전 서면 허가 없이 이러한 마크를 사용할 수 없습니다.</p>
+            </div>
+            
+            <div class="terms-card">
+                <h3>6. 구매 및 구독</h3>
+                <p>당사는 서비스 내에서 가상 아이템, 프리미엄 기능, 또는 구독 서비스를 구매할 기회를 제공할 수 있습니다. 적용 법률에 달리 규정되지 않는 한, 모든 구매는 최종적이며 환불되지 않습니다.</p>
+                <p>구매를 함으로써, 귀하는 다음에 동의합니다:</p>
+                <ul class="list-disc">
+                    <li>귀하가 제공한 결제 수단을 사용할 권한이 있음</li>
+                    <li>당사가 귀하가 구독하거나 구매한 유료 기능에 대해 귀하가 선택한 결제 수단으로 요금을 청구할 수 있음</li>
+                    <li>구독 서비스는 귀하가 취소할 때까지 자동으로 갱신됨</li>
+                    <li>가상 아이템과 프리미엄 기능은 실제 세계의 가치가 없으며, 현금이나 금전적 가치가 있는 다른 아이템으로 전환될 수 없음</li>
+                </ul>
+                <p>당사 제품의 가격은 언제든지 변경될 수 있으며, 가격 인하나 프로모션 제안의 경우 가격 보호나 환불을 제공하지 않습니다.</p>
+            </div>
+            
+            <div class="terms-card">
+                <h3>7. 서비스 변경</h3>
+                <p>당사는 사전 통지 여부와 관계없이 서비스(또는 그 일부)를 일시적 또는 영구적으로 수정하거나 중단할 권리를 보유합니다. 당사는 서비스의 변경, 일시 중단, 종료에 대해 귀하나 제3자에게 책임을 지지 않습니다.</p>
+                <p>당사는 사이트의 콘텐츠를 주기적으로 업데이트할 수 있지만, 콘텐츠가 완전하거나 최신일 필요는 없습니다. 사이트의 어떤 자료도 특정 시점에 최신이 아닐 수 있으며, 당사는 그러한 자료를 업데이트할 의무가 없습니다.</p>
+            </div>
+            
+            <div class="terms-card">
+                <h3>8. 해지</h3>
+                <p>당사는 이 약관 위반을 포함하되 이에 국한되지 않는 어떤 이유로든, 사전 통지나 책임 없이 귀하의 계정과 서비스에 대한 접근을 즉시 종료하거나 일시 중단할 수 있습니다.</p>
+                <p>해지 후, 서비스를 사용할 귀하의 권리는 즉시 종료됩니다. 계정을 해지하려면, 서비스 사용을 중단하거나 계정 삭제 요청을 위해 당사에 연락할 수 있습니다.</p>
+                <p>해지 후에도 본질적으로 존속해야 하는 모든 약관 조항은, 재산권 조항, 보증 부인, 배상, 책임 제한을 포함하되 이에 국한되지 않고, 해지 후에도 계속 유효합니다.</p>
+            </div>
+            
+            <div class="terms-card">
+                <h3>9. 보증 부인</h3>
+                <p>귀하는 자신의 위험으로 서비스를 사용합니다. 서비스는 "있는 그대로" 및 "이용 가능한 대로" 제공됩니다. 당사는 상품성, 특정 목적에의 적합성, 비침해성 및 거래 과정이나 상업적 사용에서 발생하는 모든 보증을 포함하되 이에 국한되지 않고, 모든 명시적 또는 묵시적 보증을 명시적으로 부인합니다.</p>
+                <p>당사는 서비스가 귀하의 요구 사항을 충족할 것이라거나, 중단되지 않고, 안전하거나, 오류가 없을 것이라거나, 결함이 수정될 것이라고 보증하지 않습니다.</p>
+            </div>
+            
+            <div class="terms-card">
+                <h3>10. 책임 제한</h3>
+                <p>적용 법률이 허용하는 최대 범위 내에서, MiniBlox, 그 계열사, 임원, 직원, 대리인, 또는 라이선스 제공자는 서비스 사용이나 사용 불능과 관련하여 발생하는 이익 손실, 명성 손실, 사용 손실, 데이터 손실, 또는 기타 무형 손실을 포함하되 이에 국한되지 않는 간접적, 징벌적, 부수적, 특별, 결과적, 또는 예시적 손해에 대해 책임을 지지 않습니다.</p>
+                <p>서비스와 관련된 모든 청구에 대한 당사의 총 책임은 어떤 경우에도 $100 또는 귀하가 지난 12개월 동안 당사에 지불한 금액 중 더 큰 금액을 초과하지 않습니다.</p>
+            </div>
+            
+            <div class="terms-card">
+                <h3>11. 배상</h3>
+                <p>귀하는 본 약관 위반 또는 서비스 사용으로 인해 또는 이와 관련하여 발생하는 모든 청구, 책임, 손해, 판결, 보상, 손실, 비용, 경비 또는 수수료(합리적인 변호사 수수료 포함)로부터 MiniBlox와 그 라이선스 제공자, 서비스 제공자, 직원, 대리인, 임원, 및 이사들을 방어, 배상, 보호할 것에 동의합니다.</p>
+            </div>
+            
+            <div class="terms-card">
+                <h3>12. 적용 법률</h3>
+                <p>본 약관은 법률 충돌 조항에 관계없이 캘리포니아 주 법률에 따라 관리되고 해석됩니다.</p>
+                <p>당사가 본 약관의 어떤 권리나 조항을 시행하지 않았다고 해서 그러한 권리를 포기한 것으로 간주되지 않습니다. 본 약관의 어떤 조항이 법원에 의해 무효 또는 집행 불가능한 것으로 판결된 경우, 본 약관의 나머지 조항은 계속 효력을 유지합니다.</p>
+            </div>
+            
+            <div class="terms-card">
+                <h3>13. 약관 변경</h3>
+                <p>당사는 언제든지 본 약관을 수정하거나 개정할 권리를 보유합니다. 당사는 이 페이지에 새 약관을 게시하고 "최종 업데이트" 날짜를 업데이트하여 변경 사항을 통지할 것입니다.</p>
+                <p>변경 사항이 발효된 후 서비스에 계속 접근하거나 사용함으로써, 귀하는 수정된 약관을 준수하는 데 동의합니다. 새 약관에 동의하지 않는 경우, 귀하는 더 이상 서비스를 사용할 권한이 없습니다.</p>
+            </div>
+            
+            <div class="terms-card">
+                <h3>14. 연락처 정보</h3>
+                <p>본 약관에 관한 질문이 있으시면, 다음 주소로 연락해 주세요:</p>
+                <p class="font-medium text-white">legal@miniblox.cc</p>
+            </div>
+
+            <div class="text-center mt-8">
+                <p class="text-gray-400 mb-6">최종 업데이트: 2024년 1월 15일</p>
+                <a href="index.html" class="btn-primary">홈페이지로 돌아가기</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-8 md:mb-0">
+                    <h3 class="text-2xl font-bold text-white mb-4">MiniBlox</h3>
+                    <p class="text-gray-400 max-w-md">창의성과 모험이 만나는 온라인 블록 빌딩 게임. 이 흥미로운 멀티플레이어 경험에서 건설하고, 탐험하고, 친구들과 함께 플레이하세요.</p>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                    <div>
+                        <h4 class="text-white font-semibold mb-3">빠른 링크</h4>
+                        <ul class="space-y-2">
+                            <li><a href="index.html" class="text-gray-400 hover:text-white">홈</a></li>
+                            <li><a href="index.html#how-to-play" class="text-gray-400 hover:text-white">플레이 방법</a></li>
+                            <li><a href="index.html#features" class="text-gray-400 hover:text-white">기능</a></li>
+                            <li><a href="index.html#faq" class="text-gray-400 hover:text-white">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-white font-semibold mb-3">법률</h4>
+                        <ul class="space-y-2">
+                            <li><a href="privacy.html" class="text-gray-400 hover:text-white">개인정보 보호정책</a></li>
+                            <li><a href="terms.html" class="text-gray-400 hover:text-white font-medium">이용약관</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-white font-semibold mb-3">연락처</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-400 hover:text-white">문의하기</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center">
+                <p class="text-gray-500">&copy; 2023 MiniBlox.cc - 모든 권리 보유</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
